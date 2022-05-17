@@ -1,0 +1,21 @@
+flake8==3.9.0
+black==19.10b0
+tqdm
+
+numpy
+pandas
+pandas-profiling
+matplotlib
+jupyter==1.0.0
+nbconvert==5.6.1
+pyarrow
+jupyter_contrib_nbextensions==0.5.1
+scikit-learn==0.24.1
+
+lightfm
+bentoml
+py_zipkin
+    # via
+        # benoml start service
+
+anytree==2.8.0
