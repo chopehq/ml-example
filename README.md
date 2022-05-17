@@ -1,4 +1,4 @@
-# Chope MLE Assignment
+# Chope Machine Learning Example Repo
 
 # Set up
 Set up the Python environment via conda:
