@@ -18,7 +18,6 @@ RUN wget -P data/ https://cho.pe/dataset
 RUN unzip data/dataset -d data/
 
 COPY ./requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
 
 COPY ./train.py train.py
 COPY ./pack_service.py pack_service.py
