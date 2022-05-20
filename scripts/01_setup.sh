@@ -15,13 +15,6 @@ pip-compile
 echo "Install pip libraries..."
 pip install -r requirements.txt
 
-echo "Installing jupyter contrib nbextension..."
-jupyter contrib nbextension install --user
-jupyter nbextension install https://github.com/drillan/jupyter-black/archive/master.zip --user
-jupyter nbextension enable jupyter-black-master/jupyter-black
-jupyter nbextension enable execute_time/ExecuteTime
-jupyter nbextension enable toc2/main
-
 echo "Making data and models directories..."
 mkdir -p data/output
 mkdir -p data/preprocess
